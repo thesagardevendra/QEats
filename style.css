@@ -1,0 +1,19 @@
+
+
+.hoverImg{
+    overflow: hidden;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+}
+img{
+    object-fit: contain;
+    height: 300px;
+    width: 300px;
+   
+}
+img:hover{
+    transition: all .1s ease-in-out;
+    filter:brightness(0.5);
+    transform: scale(1.1);
+}
