@@ -5,12 +5,13 @@
     border-radius: 5px;
     cursor: pointer;
     position: relative;
+    text-transform: uppercase;
 }
 img{
     object-fit: contain;
     height: 300px;
     width: 300px;
-   
+   filter:opacity(90%)
 }
 img:hover{
     transition: all .1s ease-in-out;
