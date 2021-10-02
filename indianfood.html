@@ -1,143 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Document</title>
 </head>
 <style>
-    body{
-      color:white;
+    body {
+        color: white;
     }
-   .row div img{
-     object-fit: cover;
-  
-     max-width: 200px;
-     height: 200px;
-    
-   }
-     
-      .row{
-  display: flex;
-  justify-content: center;
-      }
-      .row div{
+
+    .row div img {
+        object-fit: cover;
+
+        max-width: 200px;
+        height: 200px;
+
+    }
+
+    .row {
+        display: flex;
+        justify-content: center;
+    }
+
+    .row div {
         text-align: center;
-  margin-right: 8px;
-      }
-  </style>
+        margin-right: 8px;
+    }
+</style>
+
 <body>
     <nav class="navbar navbar-light navbar-expand-lg " style="background-color: orangered;">
         <div class="container">
-          <a class="navbar-brand me-5" href="index.html"><h2>QEats</h2></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav fs-5 d-flex me-5 align-center" style="color:white;">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#" style=" color:white;">Order Now</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" style=" color:white;">Beverages</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" style=" color:white;">Meal's</a>
-              </li>       
-            </ul>
-            <form class="d-flex justify-content-between">
-              <input class="form-control me-2" type="search" placeholder="Search...." aria-label="Search">
-              <button class="btn btn-primary me-5">Search</button>
-            </form>     
-          </div>
+            <a class="navbar-brand me-5" href="index.html">
+                <h2>QEats</h2>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav fs-5 d-flex me-5 align-center" style="color:white;">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#" style=" color:white;">Order Now</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style=" color:white;">Beverages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style=" color:white;">Meal's</a>
+                    </li>
+                </ul>
+                <form class="d-flex justify-content-between">
+                    <input class="form-control me-2" type="search" placeholder="Search...." aria-label="Search">
+                    <button class="btn btn-primary me-5">Search</button>
+                </form>
+            </div>
         </div>
-      </nav>    
-      <h3 class="text-dark text-center m-3">Enjoy Indian Meal</h3>
+    </nav>
+    <h3 class="text-dark text-center m-3">Enjoy Indian Meal</h3>
     <div class="container-fluid ">
-<div class="row  gy-2"> 
-<div class="col-lg-4  col-md-6 col-sm-4 d-flex align-center p-2">
-    <img class="rounded me-1" src="https://media.istockphoto.com/photos/indian-chicken-vindaloo-in-a-brass-wok-ready-to-be-served-on-a-grunge-picture-id1186685544?k=20&m=1186685544&s=612x612&w=0&h=gQsQgUmAbF48Nq6mpC-lRCnGQN4hm5ehHRI7PzTfmSg=">
-    <div class="mt-3 ">
-        <p class="text-dark text-nowrap text-uppercase ms-1 fw-bold fs-6  text-start text-nowrap" style="text-overflow: ellipsis;">Chicken Curry</p>
-        <p class="text-secondary ms-2 text-start">Sion | 11.kms</p>
-        <p class="text-secondary m-2 text-start fw-bolder">₹230/-</p>
-        <button class="btn btn-danger m-2">Order Now</button>
-    </div>
-</div>
-<div class="col-lg-4  col-md-6 col-sm-4 d-flex align-center p-2">
-    <img class="rounded me-1" src="https://media.istockphoto.com/photos/pav-bhaji-with-a-soft-bread-roll-bun-paav-on-table-setting-indian-picture-id1057140668?k=20&m=1057140668&s=612x612&w=0&h=KTKSiIGhbby-R8okSTpqtdbGtCuu3x-n13D8X-UQ23M=">
-    <div class="mt-3 ">
-        <p class="text-dark text-nowrap  text-start text-uppercase ms-1 fw-bold fs-6">Pav Bhaji</p>
-        <p class="text-secondary ms-2 text-start text-nowrap" style="text-overflow: ellipsis;">Matunga | 11.kms</p>
-        <p class="text-secondary m-2 text-start fw-bolder">₹120/-</p>
-        <button class="btn btn-danger m-2">Order Now</button>
-    </div>
-</div>
-<div class="col-lg-4  col-md-6 col-sm-4 d-flex align-center p-2">
-    <img class="rounded me-1" src="https://media.istockphoto.com/photos/cheese-masala-dosa-recipe-with-sambar-and-chutney-selective-focus-picture-id1156896083?k=20&m=1156896083&s=612x612&w=0&h=_TOEluPtKxmbkt_80JWO2GN0v_w2ZTG0uUaHjk2TSEY=">
-    <div class="mt-3 ">
-        <p class="text-dark text-nowrap text-uppercase ms-1 fw-bold fs-6  text-nowrap" style="text-overflow: ellipsis;">Masala Dosa</p>
-        <p class="text-secondary ms-2 text-start">Sion | 11.kms</p>
-        <p class="text-secondary m-2 text-start fw-bolder">₹90/-</p>
-        <button class="btn btn-danger m-2">Order Now</button>
-    </div>
-</div>
-<div class="col-lg-4  col-md-6 col-sm-4 d-flex align-center p-2">
-    <img class="rounded me-1" src="https://media.istockphoto.com/photos/indian-snack-samosa-picture-id538174372?k=20&m=538174372&s=612x612&w=0&h=lQcf9rrOLryb3Df0a7UUes15_Zlmd3haS23poZJ88UA=">
-    <div class="mt-3 ">
-        <p class="text-dark text-nowrap text-uppercase ms-1 fw-bold fs-6  text-nowrap text-start" style="text-overflow: ellipsis;">Samosa</p>
-        <p class="text-secondary ms-2 text-start">Sion | 11.kms</p>
-        <p class="text-secondary m-2 text-start fw-bolder">₹99/-</p>
-        <button class="btn btn-danger m-2">Order Now</button>
-    </div>
-</div>
-<div class="col-lg-4  col-md-6 col-sm-4 d-flex align-center p-2">
-    <img class="rounded me-1" src="https://media.istockphoto.com/photos/gujarati-khaman-dhokla-or-steamed-gram-flour-puffy-snack-cake-picture-id1257020044?k=20&m=1257020044&s=612x612&w=0&h=a2eBypvFgSBQj9OmHBpEqiILd16nCDEPV9o02qJuRDc=">
-    <div class="mt-3 ">
-        <p class="text-dark text-nowrap text-uppercase ms-1 fw-bold fs-6  text-nowrap text-start" style="text-overflow: ellipsis;">Dhokla</p>
-        <p class="text-secondary ms-2 text-start">Sion | 11.kms</p>
-        <p class="text-secondary m-2 text-start fw-bolder">₹169/-</p>
-        <button class="btn btn-danger m-2">Order Now</button>
-    </div>
-</div>
-<div class="col-lg-4  col-md-6 col-sm-4 d-flex align-center p-2">
-    <img class="rounded me-1" src="https://media.istockphoto.com/photos/delicious-chicken-biryani-top-viewbiryani-rice-dish-beautiful-indian-picture-id1271531055?k=20&m=1271531055&s=612x612&w=0&h=J0a0W0lWAAJuxnIkFyZIAbC2Ktzp8t3ZVMld4ZTnMkk=">
-    <div class="mt-3 ">
-        <p class="text-dark text-nowrap text-uppercase ms-1 fw-bold fs-6  text-nowrap text-start" style="text-overflow: ellipsis;">"Briyani"</p>
-        <p class="text-secondary ms-2 text-start">Sion | 11.kms</p>
-        <p class="text-secondary m-2 text-start fw-bolder">₹270/-</p>
-        <button class="btn btn-danger m-2">Order Now</button>
-    </div>
-</div>
-<div class="col-lg-4  col-md-6 col-sm-4 d-flex align-center p-2">
-    <img class="rounded me-1" src="https://media.istockphoto.com/photos/kadai-chicken-picture-id589548414?k=20&m=589548414&s=612x612&w=0&h=EqmSggBEWjztgX1rpMN5G2wVXLGscE2V4wvwJfNY3vk=">
-    <div class="mt-3 ">
-        <p class="text-dark text-nowrap text-uppercase ms-1 fw-bold fs-6  text-nowrap text-start" style="text-overflow: ellipsis;">Chicken sukka</p>
-        <p class="text-secondary ms-2 text-start">Sion | 11.kms</p>
-        <p class="text-secondary m-2 text-start fw-bolder">₹270/-</p>
-        <button class="btn btn-danger m-2">Order Now</button>
-    </div>
-</div>
-<div class="col-lg-4  col-md-6 col-sm-4 d-flex align-center p-2">
-    <img class="rounded me-1" src="https://media.istockphoto.com/photos/pani-puri-golgappe-chat-item-india-picture-id525416827?k=20&m=525416827&s=612x612&w=0&h=yZh2vZC1mrjD9_bhDPGeIPkzsjHt5rqzQVPM6fmxvjM=">
-    <div class="mt-3 ">
-        <p class="text-dark text-nowrap text-uppercase ms-1 fw-bold fs-6  text-nowrap text-start" style="text-overflow: ellipsis;">Pani Puri</p>
-        <p class="text-secondary ms-2 text-start">Sion | 11.kms</p>
-        <p class="text-secondary m-2 text-start fw-bolder">₹130/-</p>
-        <button class="btn btn-danger m-2">Order Now</button>
-    </div>
-</div>
+        <div class="row  gy-2">
+            <div class="col-lg-4  col-md-6 col-sm-4 d-flex align-center p-2">
+                <img class="rounded me-1"
+                    src="https://media.istockphoto.com/photos/indian-chicken-vindaloo-in-a-brass-wok-ready-to-be-served-on-a-grunge-picture-id1186685544?k=20&m=1186685544&s=612x612&w=0&h=gQsQgUmAbF48Nq6mpC-lRCnGQN4hm5ehHRI7PzTfmSg=">
+                <div class="mt-3 ">
+                    <p class="text-dark text-nowrap text-uppercase ms-1 fw-bold fs-6  text-start text-nowrap"
+                        style="text-overflow: ellipsis;">Chicken Curry</p>
+                    <p class="text-secondary ms-2 text-start">Sion | 11.kms</p>
+                    <p class="text-secondary m-2 text-start fw-bolder">₹230/-</p>
+                    <button class="btn btn-danger m-2">Order Now</button>
+                </div>
+            </div>
+            <div class="col-lg-4  col-md-6 col-sm-4 d-flex align-center p-2">
+                <img class="rounded me-1"
+                    src="https://media.istockphoto.com/photos/pav-bhaji-with-a-soft-bread-roll-bun-paav-on-table-setting-indian-picture-id1057140668?k=20&m=1057140668&s=612x612&w=0&h=KTKSiIGhbby-R8okSTpqtdbGtCuu3x-n13D8X-UQ23M=">
+                <div class="mt-3 ">
+                    <p class="text-dark text-nowrap  text-start text-uppercase ms-1 fw-bold fs-6">Pav Bhaji</p>
+                    <p class="text-secondary ms-2 text-start text-nowrap" style="text-overflow: ellipsis;">Matunga |
+                        11.kms</p>
+                    <p class="text-secondary m-2 text-start fw-bolder">₹120/-</p>
+                    <button class="btn btn-danger m-2">Order Now</button>
+                </div>
+            </div>
+            <div class="col-lg-4  col-md-6 col-sm-4 d-flex align-center p-2">
+                <img class="rounded me-1"
+                    src="https://media.istockphoto.com/photos/cheese-masala-dosa-recipe-with-sambar-and-chutney-selective-focus-picture-id1156896083?k=20&m=1156896083&s=612x612&w=0&h=_TOEluPtKxmbkt_80JWO2GN0v_w2ZTG0uUaHjk2TSEY=">
+                <div class="mt-3 ">
+                    <p class="text-dark text-nowrap text-uppercase ms-1 fw-bold fs-6  text-nowrap"
+                        style="text-overflow: ellipsis;">Masala Dosa</p>
+                    <p class="text-secondary ms-2 text-start">Sion | 11.kms</p>
+                    <p class="text-secondary m-2 text-start fw-bolder">₹90/-</p>
+                    <button class="btn btn-danger m-2">Order Now</button>
+                </div>
+            </div>
+            <div class="col-lg-4  col-md-6 col-sm-4 d-flex align-center p-2">
+                <img class="rounded me-1"
+                    src="https://media.istockphoto.com/photos/indian-snack-samosa-picture-id538174372?k=20&m=538174372&s=612x612&w=0&h=lQcf9rrOLryb3Df0a7UUes15_Zlmd3haS23poZJ88UA=">
+                <div class="mt-3 ">
+                    <p class="text-dark text-nowrap text-uppercase ms-1 fw-bold fs-6  text-nowrap text-start"
+                        style="text-overflow: ellipsis;">Samosa</p>
+                    <p class="text-secondary ms-2 text-start">Sion | 11.kms</p>
+                    <p class="text-secondary m-2 text-start fw-bolder">₹99/-</p>
+                    <button class="btn btn-danger m-2">Order Now</button>
+                </div>
+            </div>
+            <div class="col-lg-4  col-md-6 col-sm-4 d-flex align-center p-2">
+                <img class="rounded me-1"
+                    src="https://media.istockphoto.com/photos/gujarati-khaman-dhokla-or-steamed-gram-flour-puffy-snack-cake-picture-id1257020044?k=20&m=1257020044&s=612x612&w=0&h=a2eBypvFgSBQj9OmHBpEqiILd16nCDEPV9o02qJuRDc=">
+                <div class="mt-3 ">
+                    <p class="text-dark text-nowrap text-uppercase ms-1 fw-bold fs-6  text-nowrap text-start"
+                        style="text-overflow: ellipsis;">Dhokla</p>
+                    <p class="text-secondary ms-2 text-start">Sion | 11.kms</p>
+                    <p class="text-secondary m-2 text-start fw-bolder">₹169/-</p>
+                    <button class="btn btn-danger m-2">Order Now</button>
+                </div>
+            </div>
+            <div class="col-lg-4  col-md-6 col-sm-4 d-flex align-center p-2">
+                <img class="rounded me-1"
+                    src="https://media.istockphoto.com/photos/delicious-chicken-biryani-top-viewbiryani-rice-dish-beautiful-indian-picture-id1271531055?k=20&m=1271531055&s=612x612&w=0&h=J0a0W0lWAAJuxnIkFyZIAbC2Ktzp8t3ZVMld4ZTnMkk=">
+                <div class="mt-3 ">
+                    <p class="text-dark text-nowrap text-uppercase ms-1 fw-bold fs-6  text-nowrap text-start"
+                        style="text-overflow: ellipsis;">"Briyani"</p>
+                    <p class="text-secondary ms-2 text-start">Sion | 11.kms</p>
+                    <p class="text-secondary m-2 text-start fw-bolder">₹270/-</p>
+                    <button class="btn btn-danger m-2">Order Now</button>
+                </div>
+            </div>
+            <div class="col-lg-4  col-md-6 col-sm-4 d-flex align-center p-2">
+                <img class="rounded me-1"
+                    src="https://media.istockphoto.com/photos/kadai-chicken-picture-id589548414?k=20&m=589548414&s=612x612&w=0&h=EqmSggBEWjztgX1rpMN5G2wVXLGscE2V4wvwJfNY3vk=">
+                <div class="mt-3 ">
+                    <p class="text-dark text-nowrap text-uppercase ms-1 fw-bold fs-6  text-nowrap text-start"
+                        style="text-overflow: ellipsis;">Chicken sukka</p>
+                    <p class="text-secondary ms-2 text-start">Sion | 11.kms</p>
+                    <p class="text-secondary m-2 text-start fw-bolder">₹270/-</p>
+                    <button class="btn btn-danger m-2">Order Now</button>
+                </div>
+            </div>
+            <div class="col-lg-4  col-md-6 col-sm-4 d-flex align-center p-2">
+                <img class="rounded me-1"
+                    src="https://media.istockphoto.com/photos/pani-puri-golgappe-chat-item-india-picture-id525416827?k=20&m=525416827&s=612x612&w=0&h=yZh2vZC1mrjD9_bhDPGeIPkzsjHt5rqzQVPM6fmxvjM=">
+                <div class="mt-3 ">
+                    <p class="text-dark text-nowrap text-uppercase ms-1 fw-bold fs-6  text-nowrap text-start"
+                        style="text-overflow: ellipsis;">Pani Puri</p>
+                    <p class="text-secondary ms-2 text-start">Sion | 11.kms</p>
+                    <p class="text-secondary m-2 text-start fw-bolder">₹130/-</p>
+                    <button class="btn btn-danger m-2">Order Now</button>
+                </div>
+            </div>
 
-</div>
-</div>
-<footer>
-    <div class="text-center p-3" style="background-color: orangered;">
-  <a class="text-white">QEat©2021</a>
+        </div>
     </div>
-  </footer>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
- <script src="index.js"></script>   
+    <footer>
+        <div class="text-center p-3" style="background-color: orangered;">
+            <a class="text-white">QEat©2021</a>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
 </body>
+
 </html>

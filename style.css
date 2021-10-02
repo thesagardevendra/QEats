@@ -1,32 +1,35 @@
-
-
-.hoverImg{
+.hoverImg {
     overflow: hidden;
     border-radius: 5px;
     cursor: pointer;
     position: relative;
     text-transform: uppercase;
 }
-.details{
+
+.details {
     position: absolute;
-    bottom:20%;
-    left:25%;
-    z-index:1;
+    bottom: 20%;
+    left: 25%;
+    z-index: 1;
+ 
 }
-img{
+
+img {
     object-fit: contain;
     height: 300px;
     width: 300px;
-   filter:opacity(90%)
+    filter: opacity(90%)
 }
-img:hover{
+
+img:hover {
     transition: all .1s ease-in-out;
-    filter:brightness(0.5);
+    filter: brightness(0.5);
     transform: scale(1.1);
 }
 
-@media only screen and (min-width: 430px) and (max-width: 575px)  {
-    .details{
+@media only screen and (min-width: 430px) and (max-width: 575px) {
+    .details {
         left: 40%;
+        color:black
     }
-    }
+}
